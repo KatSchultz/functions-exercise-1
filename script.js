@@ -16,4 +16,8 @@ function getAreaOfSquare(side) {
 
 console.log(getAreaOfSquare(5));
 
-const getAreaOfTriangle = function (base, height) {};
+const getAreaOfTriangle = function (base, height) {
+  return (base * height) / 2;
+};
+
+console.log(getAreaOfTriangle(4, 5));
